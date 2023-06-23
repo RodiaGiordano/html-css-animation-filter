@@ -99,6 +99,11 @@
 }
 
 
+.ex-8-img:hover{
+  filter: blur(10px);
+  rotate: 40deg;
+  border-radius:50%;
+}
 
 
 .ex-9-img {
