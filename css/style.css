@@ -236,3 +236,58 @@
   100%{left: 10%;}
 
 }
+
+
+
+
+
+.ex-13-button:hover .ex-13-bottom-white {
+  animation-name: giro-sotto;
+  animation-timing-function: linear;
+  animation-duration: 4s;
+}
+
+
+
+
+ .ex-13-button:hover .ex-13-top-white{
+  animation-name: giro-sopra;
+  animation-timing-function: linear;
+  animation-duration: 4s;
+
+}
+
+
+
+@keyframes giro-sotto{
+
+  0%{right: 20%; bottom: -10px;}
+
+  20%{right: calc(100% - 40px); bottom: -10px;}
+
+  40%{right: calc(100% - 40px); bottom: calc(100% - 10px);}
+
+  60%{right: 0%; bottom: calc(100%); }
+
+  80%{right: calc(0% - 30px); bottom: 0%  }
+
+  100%{right: 20%; bottom: -10px;}
+
+}
+
+
+@keyframes giro-sopra{
+
+  0%{left: 10%; top: -10px;}
+
+  20%{left: calc(100% - 30px); top:-10px;}
+
+  40%{left: calc(100% - 30px); top: 100%;}
+
+  60%{ left: 0%; top:100%; }
+
+  80%{left: calc(0% - 30px); top: 0%}
+
+  100%{left: 10%; top: -10px;}
+
+}
