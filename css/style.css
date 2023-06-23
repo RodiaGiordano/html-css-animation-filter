@@ -176,6 +176,7 @@
   line-height: 70px;
   text-align: center;
   text-decoration: none;
+  
 }
 .ex-12-top-white,
 .ex-13-top-white {
@@ -194,4 +195,44 @@
   background: #f5f5f5;
   width: 60px;
   height: 20px;
+}
+
+
+
+.ex-12-button:hover .ex-12-bottom-white {
+  animation-name: alternato-bottom;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+}
+
+
+
+
+ .ex-12-button:hover .ex-12-top-white{
+  animation-name: alternato-top;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+
+}
+
+
+@keyframes alternato-bottom{
+
+  0%{right: 20%;}
+
+  50%{right: calc(100% - 60px);}
+
+  100%{right: 20%;}
+
+}
+
+
+@keyframes alternato-top{
+
+  0%{left: 10%;}
+
+  50%{left: calc(100% - 60px);}
+
+  100%{left: 10%;}
+
 }
