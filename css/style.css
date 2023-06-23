@@ -94,6 +94,11 @@
 
 
 
+.ex-7-img:hover{
+  filter: sepia(100%)
+}
+
+
 
 
 .ex-9-img {
