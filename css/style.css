@@ -139,11 +139,30 @@
 
 
 
-
-
 .ex-11-icon {
   font-size: 60px;
+  
 }
+
+.ex-11-icon:hover{
+  animation-name: secondo;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+
+}
+
+@keyframes secondo {
+  0% {transform: rotate(0deg)}
+
+  50% {transform: rotate(270deg)}
+
+  100% {transform: rotate(0deg)}
+  
+}
+
+
+
+
 .ex-12-button,
 .ex-13-button {
   position: relative;
