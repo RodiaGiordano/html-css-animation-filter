@@ -112,7 +112,12 @@
   transition: 3s;
 }
 
-
+.ex-9-img:hover{
+  filter: blur(10px);
+  rotate: 40deg;
+  border-radius:50%;
+  scale: 50%;
+}
 
 
 .ex-10-icon {
